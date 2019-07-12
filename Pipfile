@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+ipython = "*"
+rope = "*"
+autopep8 = "*"
+yapf = "*"
+black = "==19.3b0"
+pytest = "*"
+
+[packages]
+requests = "*"
+e1839a8 = {editable = true,path = "."}
+
+[requires]
+python_version = "3.7"
